@@ -109,6 +109,10 @@ def main():
     show_button = Button(root, text="Show All Passwords", command=readPasswords)
     show_button.grid(row=4, column=2, pady=10, padx=10)
 
+    copy_button = Button(root, text="Copy Password", command=copy1)
+    copy_button.grid(row=4, column=3, pady=10, padx=10)
+
+
     root.mainloop()
 
 
